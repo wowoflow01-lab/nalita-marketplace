@@ -1,84 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vtuberMart</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <h3>caracterART</h3>
-        <a href="#produk">produk</a>
-        <a href="#kontak">kontak</a>
-        <a href="#">keranjang <samp id="cart">0</samp></a>
+      <h1>market place, prouduk card</h1>
+      <nav>
+        <a href="#product">product</a>
+        <a href="kontak"></a>
+        <a>keranjang <span id="cart-cont">0</span></a>
+      </nav>
     </header>
     <main>
-        <div class="card-container">
-        <div class="card">
-            <img src="e9f008c90126be9e5265b774a18900fe ginchan.png" alt="">
-            <h3>funart ginchan</h3>
-            <p>Rp. 1.000.000,00</p>
-            <div class="tambah-kuantitas">
-                <button class="qty-min">-</button>
-                <input type="text" value="0" readonly class="qty-Value" />
-                <button class="qty-Plus">+</button>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="gambar/nailong.jpg" />
+          <h3>boneka nailong</h3>
+          <p class="price">RP 54.000</p>
+          <div class="qty-steper">
+            <button type="button" class="qty-btn btn-min">-</button>
+            <input type="text" class="qty-value" value="1" readonly>
+            <button type="button" class="qty-btn btn-plus">+</button>
             </div>
-            <button class="button-beli">pesan</button>
+            <button class="buy-btn">AYO BELI SEKARANG JUGAKK</button>
         </div>
-         <div class="card">
-            <img src="e9f008c90126be9e5265b774a18900fe ginchan.png" alt="">
-            <h3>funart ginchan</h3>
-            <p>Rp. 1.000.000,00</p>
-            <div class="tambah-kuantitas">
-                <button class="qty-min">-</button>
-                <input type="text" value="0" readonly class="qty-Value" />
-                <button class="qty-Plus">+</button>
+        <div class="product-card">
+          <img src="/gambar/tas lucuu.jpg" />
+          <h3>tas lucu</h3>
+          <p class="price">RP 42.000</p>
+          <div class="qty-steper">
+            <button type="button" class="qty-btn btn-min">-</button>
+            <input type="text"class="qty-value" value="1" readonly>
+            <button type="button" class="qty-btn btn-plus">+</button>
             </div>
-            <button class="button-beli">pesan</button>
+          <button class="buy-btn">AYO BELI SEKARANG JUGAKK</button>
         </div>
-         <div class="card">
-            <img src="e9f008c90126be9e5265b774a18900fe ginchan.png" alt="">
-            <h3>funart ginchan</h3>
-            <p>Rp. 1.000.000,00</p>
-            <div class="tambah-kuantitas">
-                <button class="qty-min">-</button>
-                <input type="text" value="0" readonly class="qty-Value" />
-                <button class="qty-Plus">+</button>
+        <div class="product-card">
+         <img src="/gambar/pandaa.webp" />
+          <h3>boneka panda</h3>
+          <p class="price">RP 60.000</p>
+          <div class="qty-steper">
+            <button type="button" class="qty-btn btn-min">-</button>
+            <input type="text"class="qty-value" value="1" readonly>
+            <button type="button" class="qty-btn btn-plus">+</button>
             </div>
-            <button class="button-beli">pesan</button>
+          <button class="buy-btn">AYO BELI SEKARANG JUGAKK</button>
         </div>
-         <div class="card">
-            <img src="e9f008c90126be9e5265b774a18900fe ginchan.png" alt="">
-            <h3>funart ginchan</h3>
-            <p>Rp. 1.000.000,00</p>
-            <div class="tambah-kuantitas">
-                <button class="qty-min">-</button>
-                <input type="text" value="0" readonly class="qty-Value"/>
-                <button class="qty-Plus">+</button>
+        <div class="product-card">
+          <img src="/gambar/botol minum.webp" />
+          <h3>botol estetik</h3>
+          <p class="price">RP 55.000</p>
+           <div class="qty-steper">
+            <button type="button" class="qty-btn btn-min">-</button>
+            <input type="text"class="qty-value" value="1" readonly>
+            <button type="button" class="qty-btn btn-plus">+</button>
             </div>
-            <button class="button-beli">pesan</button>
-         
-           
+          <button class="buy-btn">AYO BELI SEKARANG JUGAKK</button>
         </div>
-         
-         
+        <div class="product-card">
+         <img src="/gambar/jam wanita.webp" />
+          <h3>jam tangan</h3>
+          <p class="price">RP 45.000</p> 
+          <div class="qty-steper">
+            <button type="button" class="qty-btn btn-min">-</button>
+            <input type="text"class="qty-value" value="1" readonly>
+            <button type="button" class="qty-btn btn-plus">+</button>
+            </div>
+        <button class="buy-btn">AYO BELI SEKARANG JUGAKK</button>
         </div>
+      
+       <div class="product-card">
+          <img src="/gambar/gantungan lucu.webp" />
+          <h3>gantung gemas</h3>
+          <p class="price">RP 15.000</p> 
+           <div class="qty-steper">
+            <button type="button" class="qty-btn btn-min">-</button>
+            <input type="text"class="qty-value" value="1" readonly>
+            <button type="button" class="qty-btn btn-plus">+</button>
+            </div>
+          <button class="buy-btn">AYO BELI SEKARANG JUGAKK</button>
+        </div> 
+        </div>       
     </main>
     <footer>
-        <div>
-            <form class="kontak">
-                <label for="name">nama:</label>
-                <input type="text"placeholder="full name" id="name"/>
-                <label for="email">email:</label>
-                <input type="text"placeholder="contoh@gmail.com" id="gmail">
-                <label for="pesan">pesan:</label>
-                <textarea name="pesan" id="pesan"></textarea>
-                <button type="button">kirim pesan</button>
-            </form>
-        </div>
+      <h1>copyright by {nalita}</h1>
     </footer>
-    <script src="scrip.js"></script>
-    <h6>btw nih kaga jadi yee mager soalny capek habis latian paskib</h6>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
